@@ -16,14 +16,14 @@ export function Overlay({ scroll }) {
       >
         <header>
           <h1>
-            <strong>spline/</strong>code <sup>Demo</sup>
+            <strong>Greetings!</strong>
           </h1>
           <nav>
-            <a href="https://lol3p7.csb.app/" rel="noreferrer">
+            <a href="" rel="noreferrer">
               / work
             </a>
             <a
-              href="https://2giomw.csb.app/"
+              href=""
               target="_blank"
               rel="noreferrer"
               className={styles.selected}
@@ -83,32 +83,34 @@ export function Overlay({ scroll }) {
       </section>
       <section style={{ height: "100vh" }} className={styles.sectionLeft}>
         <p>
-          My name is Max.
+          My name is Krishiv Soni.
           <br />
           As you can see I like plants,
           <br />
-          design, and coffee.
+          design, and Tea.
         </p>
       </section>
       <section style={{ height: "100vh" }} className={styles.sectionLeft}>
         <p>
           In my free time
           <br />
-          I like to code and
+          I like to code, freelance, and 
           <br />
-          make 3D designs with Spline!
+          make 3D design websites using Spline!
         </p>
       </section>
       <section style={{ height: "100vh" }} className={styles.sectionRight}>
         <p>
-          In fact, I was built entirely with{" "}
-          <a href="https://spline.design" target="_blank" rel="noreferrer">
-            Spline
+          Check out my{" "}
+          <a href="www.linkedin.com/in/krishiv-soni-286594201" target="_blank" rel="noreferrer">
+          Linkedin Profile
           </a>
           !<br />
-          With love, by the Spline Team.
+          and my <a href="https://www.fiverr.com/thrive_90" target="_blank" rel="noreferrer">
+          Freelance Work
+          </a>.
         </p>
-        <p style={{ marginBottom: "300px" }}>PS: I have a conscience now... </p>
+        <p style={{ marginBottom: "300px" }}></p>
       </section>
     </div>
   );
