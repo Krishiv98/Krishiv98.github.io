@@ -13,19 +13,19 @@ function App() {
     <>
    
       {/* <HomePage /> */}
-      <NavBar />
-      <Suspense fallback={<div>Loading...</div>}>
+      {/* <NavBar /> */}
+      {/* <Suspense fallback={<div>Loading...</div>}> */}
        
-        <HomePage />
+        {/* <HomePage /> */}
         {/* <Scene scroll={scroll} /> */}
-      </Suspense>
+      {/* </Suspense> */}
 
-      {/* <Canvas shadows flat linear>
+    <Canvas shadows flat linear>
       <Suspense fallback={null}>
         <Scene scroll={scroll} />
       </Suspense>
     </Canvas>
-      <Overlay scroll={scroll} /> */}
+      <Overlay scroll={scroll} /> 
     </>
   );
 }

@@ -20,15 +20,15 @@ export function Overlay({ scroll }) {
           </h1>
           <nav>
             <a href="" rel="noreferrer">
-              / work
+              / Portfolio
             </a>
             <a
-              href=""
+              href="https://github.com/Krishiv98"
               target="_blank"
               rel="noreferrer"
               className={styles.selected}
             >
-              / relax
+              / Github
             </a>
           </nav>
         </header>
@@ -102,7 +102,7 @@ export function Overlay({ scroll }) {
       <section style={{ height: "100vh" }} className={styles.sectionRight}>
         <p>
           Check out my{" "}
-          <a href="www.linkedin.com/in/krishiv-soni-286594201" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/krishiv-soni-286594201/" target="_blank" rel="noreferrer">
           Linkedin Profile
           </a>
           !<br />
