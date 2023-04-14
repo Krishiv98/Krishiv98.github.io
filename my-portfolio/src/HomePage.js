@@ -1,6 +1,6 @@
 import React from 'react';
-const Spline = React.lazy(() => import('@splinetool/react-spline'));
-// import Spline from "@splinetool/react-spline"
+// const Spline = React.lazy(() => import('@splinetool/react-spline'));
+import Spline from "@splinetool/react-spline"
 export function HomePage(){
 
     return (
