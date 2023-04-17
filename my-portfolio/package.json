@@ -6,7 +6,7 @@
     "@react-spring/web": "^9.7.2",
     "@react-three/drei": "9.5.4",
     "@react-three/fiber": "8.0.12",
-    "@splinetool/loader": "0.9.35",
+    "@splinetool/loader": "0.9.60",
     "@splinetool/r3f-spline": "1.0.1",
     "@splinetool/react-spline": "^2.2.1",
     "@splinetool/runtime": "^0.9.261",

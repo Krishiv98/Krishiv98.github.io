@@ -1,4 +1,4 @@
-import { Suspense, useRef } from "react";
+import { Suspense, useEffect, useRef } from "react";
 import { Canvas } from "@react-three/fiber";
 import Scene from "./Scene";
 import { Overlay } from "./Overlay";
@@ -6,6 +6,7 @@ import { HomePage } from "./HomePage"
 import { NavBar } from "./NavBar";
 import { AboutMe } from "./AboutMe";
 import { Parallax, ParallaxLayer, IParallax} from '@react-spring/parallax'
+import { Loading } from "./LoadingScreen";
 
 function App() {
   const scroll = useRef(0);
@@ -13,30 +14,30 @@ function App() {
 const url = (name, wrap = false) =>
 `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
 const parallax = useRef()
+
+
+
   return (
     <>
    
-      {/* <HomePage /> */}
-      {/* <NavBar /> */}
-      {/* <Suspense fallback={<div>Loading...</div>}> */}
-       
-        {/* <HomePage /> */}
-        {/* <Scene scroll={scroll} /> */}
-      {/* </Suspense> */}
-
+  
       <Parallax pages={3} style={{ top: '0', left: '0' }}>
+      
+      
       <ParallaxLayer offset={1} speed={1} style={{ backgroundColor: '#805E73' }} />
         <ParallaxLayer offset={2} speed={1} style={{ backgroundColor: '#87BCDE' }} />
 
         <ParallaxLayer
           offset={0}
-          speed={0}
-          factor={3}
+          speed={0.3}
+          factor={1.5}
           style={{
-            backgroundImage: url('star', true),
+            
             backgroundSize: 'cover',
           }}
-        />
+        >
+          {/* <HomePage /> */}
+           </ParallaxLayer>
         <ParallaxLayer offset={1.3} speed={-0.3} style={{ pointerEvents: 'none' }}>
           <img src={url('satellite4')} style={{ width: '15%', marginLeft: '70%' }} />
         </ParallaxLayer>
@@ -98,7 +99,7 @@ const parallax = useRef()
             alignItems: 'center',
             justifyContent: 'center',
           }}>
-          <img src={url('server')} style={{ width: '20%' }} />
+          {/* <img src={url('server')} style={{ width: '20%' }} /> */}
         </ParallaxLayer>
 
         <ParallaxLayer
@@ -124,19 +125,10 @@ const parallax = useRef()
           onClick={() => parallax.current.scrollTo(0)}>
           <img src={url('clients-main')} style={{ width: '40%' }} />
         </ParallaxLayer>
-
-      {/* <ParallaxLayer offset={3} speed={2.5}>
-      <HomePage />
-
-      </ParallaxLayer>
-      <ParallaxLayer offset={2} speed={2.5}>
-      {/* <AboutMe /> 
-      </ParallaxLayer> */}
+        
     </Parallax>
-
-      {/* <AboutMe /> */}
+    <HomePage />
       
-  
        
     </>
   );
