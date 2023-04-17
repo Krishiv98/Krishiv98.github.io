@@ -7,7 +7,7 @@ export function HomePage(){
     return (
         <Suspense fallback={<Loading />}>    
         <Spline scene="https://prod.spline.design/gNSaTPdyeQnn0rOM/scene.splinecode" />
-        // <Spline scene='../../sceneHomePage.splinecode' />
+        {/* <Spline scene='../../sceneHomePage.splinecode' /> */}
     </Suspense>
     )
 }

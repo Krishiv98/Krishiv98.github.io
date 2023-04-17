@@ -93,7 +93,7 @@ const parallax = useRef()
         <ParallaxLayer
           offset={0}
           speed={0.1}
-          onClick={() => parallax.current.scrollTo(1)}
+          
           style={{
             display: 'flex',
             alignItems: 'center',
@@ -105,7 +105,7 @@ const parallax = useRef()
         <ParallaxLayer
           offset={1}
           speed={0.1}
-          onClick={() => parallax.current.scrollTo(2)}
+          
           style={{
             display: 'flex',
             alignItems: 'center',
@@ -122,7 +122,7 @@ const parallax = useRef()
             alignItems: 'center',
             justifyContent: 'center',
           }}
-          onClick={() => parallax.current.scrollTo(0)}>
+          >
           <img src={url('clients-main')} style={{ width: '40%' }} />
         </ParallaxLayer>
         
