@@ -1,5 +1,6 @@
 import About from "../views/About";
-import ProjectTimeline from "../views/Projects/Projects";
+// import ProjectTimeline from "../views/Projects/Projects";
+import Projects from "../views/Projects/Projects";
 import Skills from "../views/Skills/skills";
 import NavBar from "./NavBar/NavBar";
 import styles from "./Overlay.module.css";
@@ -97,9 +98,9 @@ export function Overlay({ scroll }) {
       </section>
 
 
-      <section style={{ height: "100vh" }} className={styles.sectionLeft}>
+      <section id="ProjectSection" style={{ height: "100vh" }} className={styles.sectionLeft}>
         <p>
-          <ProjectTimeline />
+          <Projects />
         </p>
       </section>
 

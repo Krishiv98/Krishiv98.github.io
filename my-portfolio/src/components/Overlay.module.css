@@ -7,10 +7,14 @@
   z-index: 1;
   overflow-y: auto;
   will-change: transform;
+  
 }
 
 section {
   display: flex;
+  padding: 50px;
+  margin: 150px;
+  margin-bottom: 300px;
   flex-direction: column;
   justify-content: center;
 }
@@ -19,6 +23,7 @@ section p {
   font-size: 32px;
   line-height: 38px;
 }
+
 
 .sectionHero {
   justify-content: initial;
@@ -41,8 +46,8 @@ header {
 
 header h1 {
   font-weight: 600;
-  font-size: 54px;
-  margin: 11px 0;
+  font-size: 35px;
+  margin: 11px;
   color: var(--color-title);
 }
 

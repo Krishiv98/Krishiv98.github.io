@@ -13,7 +13,7 @@ import "./skills.css";
 const Skills = () => {
     return (
         <div className="pt-3 pb-3 mt-4" id="skills">
-            <h1 className="pt-3 text-center font-details pb-2">TECH SKILLS</h1>
+            <h1 className="pt-3 text-center  pb-2">TECH SKILLS</h1>
             <CardGroup>
                 <div>
                     <Card className="focus mb-2">
