@@ -26,6 +26,7 @@ function App() {
       <Suspense fallback={
         <Loading />
       }>
+        <NavBar />
         <Canvas shadows flat linear>
 
           <Scene scroll={scroll} />

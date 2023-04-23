@@ -4,8 +4,8 @@
 }
 
 .nav-theme {
-  background-color: rgba(16,16,24,.89);
-  font-size: 20px;
+  /* background-color: rgba(16,16,24,.89); */
+  font-size: 25px;
   height: 85px !important;
 }
 .navbar-dark .navbar-nav .nav-link{
@@ -13,7 +13,7 @@
   padding-right: 1.5rem;
 }
 .animate-navbar {
-  box-shadow: 1px 1px 1px #222;
+  /* box-shadow: 1px 1px 1px #222; */
   animation: moveDown 0.5s ease-in-out;
 }
 @media only screen and (max-width: 786px){

@@ -10,6 +10,7 @@ export function Loading() {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
+                verticalAlign: 'center',
                 
             }}
         >

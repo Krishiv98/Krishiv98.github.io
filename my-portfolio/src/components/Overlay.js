@@ -1,3 +1,6 @@
+import About from "../views/About";
+import ProjectTimeline from "../views/Projects/Projects";
+import Skills from "../views/Skills/skills";
 import NavBar from "./NavBar/NavBar";
 import styles from "./Overlay.module.css";
 
@@ -17,11 +20,10 @@ export function Overlay({ scroll }) {
       >
         <header>
           <h1 id="home">
-            <strong>Greetings!</strong>
+            <strong>Greetings! I am Krishiv Soni!</strong>
           </h1>
-          <NavBar />
-        </header>
-        <p>
+         
+          <p>
           Welcome to my portfolio.
           <br />
           Scroll this page to explore!
@@ -69,28 +71,38 @@ export function Overlay({ scroll }) {
             />
           </svg>
         </p>
+        </header>
+       
+      
       </section>
+
+
       <section style={{ height: "100vh" }} className={styles.sectionLeft}>
         <p>
-          About
-          My name is Krishiv Soni.
-          <br />
-          As you can see I like plants,
-          <br />
-          design, and Tea.
+          <About />
         </p>
       </section>
+
+
       <section style={{ height: "100vh" }} className={styles.sectionLeft}>
         <p>
-          Skills/Experience
-          In my free time
+          <Skills />
+          {/* In my free time
           <br />
           I like to code, freelance, and
           <br />
           make 3D design websites using Three js and react-three-fiber!
-          Skills
+          Skills */}
         </p>
       </section>
+
+
+      <section style={{ height: "100vh" }} className={styles.sectionLeft}>
+        <p>
+          <ProjectTimeline />
+        </p>
+      </section>
+
       <section style={{ height: "100vh" }} className={styles.sectionRight}>
         <p>
           contact
