@@ -916,22 +916,7 @@ export default function Scene({ scroll, ...props }) {
               rotation={[-2.97, 0.52, 3.06]}
               scale={[0.64, 0.7, 0.7]}
             >
-              <group
-                name="Text"
-                position={[3.04, 1.12, -81.16]}
-                rotation={[-Math.PI / 9, 0, 0]}
-                scale={[1.64, 1.51, 1.51]}
-              >
-                <mesh
-                  name="S"
-                  geometry={nodes.H.geometry}
-                  
-                  castShadow
-                  receiveShadow
-                  position={[-32, -6.5, 0]}
-                />
-                
-              </group>
+             
               <mesh
                 name="Rectangle 28"
                 geometry={nodes["Rectangle 28"].geometry}

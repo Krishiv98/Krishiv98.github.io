@@ -1,22 +1,29 @@
-// import React from 'react';
-// import CirclesWithBar from 'react-loader-spinner'
+import React from 'react';
+
+import * as Loader from 'react-loader-spinner';
 
 
-
-// export function Loading() {
-//     return(
-//       <CirclesWithBar
-//       height="100"
-//       width="100"
-//       color="#4fa94d"
-//       wrapperStyle={{}}
-//       wrapperClass=""
-//       visible={true}
-//       outerCircleColor=""
-//       innerCircleColor=""
-//       barColor=""
-//       ariaLabel='circles-with-bar-loading'
-//     />
+export function Loading() {
+    return (
+        <div
+            style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                
+            }}
+        >
   
-//     );
-//    }
+            
+            <Loader.RotatingTriangles
+                visible={true}
+                height="150"
+                width="150"
+                ariaLabel="rotating-triangels-loading"
+                wrapperStyle={{}}
+
+                wrapperClass="rotating-triangels-wrapper"
+            />
+        </div>
+    );
+}

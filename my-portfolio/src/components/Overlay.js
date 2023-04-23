@@ -1,3 +1,4 @@
+import NavBar from "./NavBar/NavBar";
 import styles from "./Overlay.module.css";
 
 export function Overlay({ scroll }) {
@@ -15,22 +16,10 @@ export function Overlay({ scroll }) {
         className={styles.sectionLeft + " " + styles.sectionHero}
       >
         <header>
-          <h1>
+          <h1 id="home">
             <strong>Greetings!</strong>
           </h1>
-          <nav>
-            <a href="" rel="noreferrer">
-              / Portfolio
-            </a>
-            <a
-              href="https://github.com/Krishiv98"
-              target="_blank"
-              rel="noreferrer"
-              className={styles.selected}
-            >
-              / Github
-            </a>
-          </nav>
+          <NavBar />
         </header>
         <p>
           Welcome to my portfolio.
@@ -83,6 +72,7 @@ export function Overlay({ scroll }) {
       </section>
       <section style={{ height: "100vh" }} className={styles.sectionLeft}>
         <p>
+          About
           My name is Krishiv Soni.
           <br />
           As you can see I like plants,
@@ -92,22 +82,25 @@ export function Overlay({ scroll }) {
       </section>
       <section style={{ height: "100vh" }} className={styles.sectionLeft}>
         <p>
+          Skills/Experience
           In my free time
           <br />
-          I like to code, freelance, and 
+          I like to code, freelance, and
           <br />
-          make 3D design websites using Spline!
+          make 3D design websites using Three js and react-three-fiber!
+          Skills
         </p>
       </section>
       <section style={{ height: "100vh" }} className={styles.sectionRight}>
         <p>
+          contact
           Check out my{" "}
           <a href="https://www.linkedin.com/in/krishiv-soni-286594201/" target="_blank" rel="noreferrer">
-          Linkedin Profile
+            Linkedin Profile
           </a>
           !<br />
           and my <a href="https://www.fiverr.com/thrive_90" target="_blank" rel="noreferrer">
-          Freelance Work
+            Freelance Work
           </a>.
         </p>
         <p style={{ marginBottom: "300px" }}></p>
