@@ -1,0 +1,15 @@
+.contact-jumbotron {
+    /* background-image: url(" "); */
+    background-color: rgba(255, 255, 255, 0.747);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #medium-btn {
+    border-color: #383838;
+    color: #383838;
+  }
+  #medium-btn:hover {
+    background-color: #383838;
+    color: #ffffff;
+  }

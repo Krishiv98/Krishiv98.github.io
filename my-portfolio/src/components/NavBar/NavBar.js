@@ -16,7 +16,7 @@ export function NavBar (){
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
          
-              <Nav.Link href="#home">/Portfolio</Nav.Link>
+              <Nav.Link href="#">/Portfolio</Nav.Link>
               <Nav.Link href="#about">/About</Nav.Link>
               <Nav.Link href="#skills">/Skills</Nav.Link>
               <Nav.Link href="#projects">/Projects</Nav.Link>

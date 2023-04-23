@@ -2,6 +2,7 @@ import About from "../views/About";
 // import ProjectTimeline from "../views/Projects/Projects";
 import Projects from "../views/Projects/Projects";
 import Skills from "../views/Skills/skills";
+import Contact from "../views/contact/contact";
 import NavBar from "./NavBar/NavBar";
 import styles from "./Overlay.module.css";
 
@@ -88,12 +89,6 @@ export function Overlay({ scroll }) {
       <section style={{ height: "100vh" }} className={styles.sectionLeft}>
         <p>
           <Skills />
-          {/* In my free time
-          <br />
-          I like to code, freelance, and
-          <br />
-          make 3D design websites using Three js and react-three-fiber!
-          Skills */}
         </p>
       </section>
 
@@ -106,17 +101,9 @@ export function Overlay({ scroll }) {
 
       <section style={{ height: "100vh" }} className={styles.sectionRight}>
         <p>
-          contact
-          Check out my{" "}
-          <a href="https://www.linkedin.com/in/krishiv-soni-286594201/" target="_blank" rel="noreferrer">
-            Linkedin Profile
-          </a>
-          !<br />
-          and my <a href="https://www.fiverr.com/thrive_90" target="_blank" rel="noreferrer">
-            Freelance Work
-          </a>.
+          <Contact />
         </p>
-        <p style={{ marginBottom: "300px" }}></p>
+        <p style={{ marginBottom: "0px" }}></p>
       </section>
     </div>
   );

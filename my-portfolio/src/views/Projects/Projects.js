@@ -4,6 +4,7 @@ import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card"
 import Image from "react-bootstrap/Image";
 import CardGroup from 'react-bootstrap/CardGroup';
+import Button from "react-bootstrap/Button";
 //Css file
 import './project.css'
 
@@ -51,16 +52,16 @@ const ProjectTimeline = () => {
         <div>
           <CardGroup>
             <Card>
-              <Card.Header>PROJECT DETAILS</Card.Header>
+              <Card.Header>Console-Based BlackJack</Card.Header>
               <Card.Img variant="top" src={BlackJack} />
               <Card.Body>
-                <strong>Description:</strong> This is an E-Commerce website of savoury foods, which provides user online food shopping experience with various varieties.
+                <strong>Description:</strong> This is a console based Black Jack where a player plays against a dealer and bet money.
                 <hr />
                 <strong>Features:</strong>
                 <ul className="list-styles pt-1">
-                  <li>Provide best quality of food in low price rate.</li>
-                  <li>Powered by Pure JavaScript and CSS</li>
-                  <li>Respoisive Design</li>
+                  <li>Play a fun and competetive game against an Dealer whos is a program</li>
+                  <li>Powered by Pure Swift</li>
+                  <li>Respoisive Game where a player can play untill there money hits Zero</li>
                 </ul>
                 <hr />
                 <strong>Tech used:</strong>
@@ -68,64 +69,44 @@ const ProjectTimeline = () => {
                   <li>
                     <span className="p-2">
                       <Image
-                        src={L_HTML5}
-                        alt="HTML 5"
+                        src={"https://developer.apple.com/swift/images/swift-og.png"}
+                        alt="Swift"
                         rounded
                         className="image-style m-1"
                       ></Image>{" "}
-                      HTML5
-                    </span>
-                  </li>
-                  <li>
-                    <span className="p-2">
-                      <Image
-                        src={L_CSS3}
-                        alt="CSS 3"
-                        rounded
-                        className="image-style m-1"
-                      ></Image>{" "}
-                      CSS3
-                    </span>
-                  </li>
-                  <li>
-                    <span className="p-2">
-                      <Image
-                        src={L_JAVASCRIPT}
-                        alt="JavaScript"
-                        rounded
-                        className="image-style1 m-1"
-                      ></Image>{" "}
-                      JavaScript
+                      Swift
                     </span>
                   </li>
                 </ul>
               </Card.Body>
               <Card.Footer>
                 <div className="d-flex justify-content-between flex-nowrap text-center">
-                  <UrlButton
-                    href="https://adibaabid-team-malamjabba.github.io/BlackJack-Website/"
+                  <Button
+                    href="https://replit.com/@krishivsoni/BlackJack?v=1"
                     target="_blank"
+                    variant="primary"                  
                   >
                     SEE LIVE
-                  </UrlButton>
-                  <UrlButton
-                    href="https://github.com/AdibaAbid-Team-MalamJabba/BlackJack-Website"
+                  </Button>
+                  <Button
+                    href="https://github.com/Krishiv98/Console-based-BlackJack-Swift"
                     target="_blank"
+                    variant="secondary"
                   >
                     SOURCE CODE
-                  </UrlButton>
+                  </Button>
                 </div>
               </Card.Footer>
             </Card>
             <Card>
-              <Card.Header>PROJECT DETAILS</Card.Header>
-              <Card.Img variant="top" src={BlackJack} />
+              <Card.Header>Automated Car Race</Card.Header>
+              <Card.Img variant="top" src={CarRace} />
               <Card.Body>
-                <strong>Description:</strong> This is an E-Commerce website of savoury foods, which provides user online food shopping experience with various varieties.
+                <strong>Description:</strong> This is an Automated Car Racing game which runs an automated car race and records the Statatics.
                 <hr />
                 <strong>Features:</strong>
                 <ul className="list-styles pt-1">
-                  <li>Provide best quality of food in low price rate.</li>
+                  <li>2D Car racing game where you take a guess on which car is going to Win next!</li>
                   <li>Powered by Pure JavaScript and CSS</li>
                   <li>Respoisive Design</li>
                 </ul>
@@ -169,32 +150,34 @@ const ProjectTimeline = () => {
               </Card.Body>
               <Card.Footer>
                 <div className="d-flex justify-content-between flex-nowrap text-center">
-                  <UrlButton
-                    href="https://adibaabid-team-malamjabba.github.io/BlackJack-Website/"
+                  <Button
+                    href="https://krishiv98.github.io/2DCarRace-Javascript/"
                     target="_blank"
+                    variant="primary"
                   >
                     SEE LIVE
-                  </UrlButton>
-                  <UrlButton
-                    href="https://github.com/AdibaAbid-Team-MalamJabba/BlackJack-Website"
+                  </Button>
+                  <Button
+                    href="https://github.com/Krishiv98/2DCarRace-Javascript"
                     target="_blank"
+                    variant="secondary"
                   >
                     SOURCE CODE
-                  </UrlButton>
+                  </Button>
                 </div>
               </Card.Footer>
             </Card>
             <Card>
-              <Card.Header>PROJECT DETAILS</Card.Header>
-              <Card.Img variant="top" src={BlackJack} />
+              <Card.Header>WackAMole Game</Card.Header>
+              <Card.Img variant="top" src={WackAMole} />
               <Card.Body>
-                <strong>Description:</strong> This is an E-Commerce website of savoury foods, which provides user online food shopping experience with various varieties.
+                <strong>Description:</strong> This is a fun WackAMole Game where you smack some mole to relieve stress! but with a twist!.
                 <hr />
                 <strong>Features:</strong>
                 <ul className="list-styles pt-1">
-                  <li>Provide best quality of food in low price rate.</li>
+                  <li>Provide fun stress relieving game.</li>
                   <li>Powered by Pure JavaScript and CSS</li>
-                  <li>Respoisive Design</li>
+                  <li>Wack some mole!</li>
                 </ul>
                 <hr />
                 <strong>Tech used:</strong>
@@ -236,18 +219,21 @@ const ProjectTimeline = () => {
               </Card.Body>
               <Card.Footer>
                 <div className="d-flex justify-content-between flex-nowrap text-center">
-                  <UrlButton
-                    href="https://adibaabid-team-malamjabba.github.io/BlackJack-Website/"
+                  <Button
+                    href="https://krishiv98.github.io/Whack-A-Mole/"
                     target="_blank"
+                    variant="primary"
+
                   >
                     SEE LIVE
-                  </UrlButton>
-                  <UrlButton
-                    href="https://github.com/AdibaAbid-Team-MalamJabba/BlackJack-Website"
+                  </Button>
+                  <Button
+                    href="https://github.com/Krishiv98/Whack-A-Mole"
                     target="_blank"
+                    variant="secondary"
                   >
                     SOURCE CODE
-                  </UrlButton>
+                  </Button>
                 </div>
               </Card.Footer>
             </Card>
