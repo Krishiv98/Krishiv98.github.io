@@ -6,7 +6,7 @@ import { useRef } from "react";
 import useSpline from "@splinetool/r3f-spline";
 import { Clone, Float, PerspectiveCamera } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
-import { useLerpedMouse } from "./hooks";
+import { useLerpedMouse } from "../hooks";
 
 const cameraTargetPosition = new THREE.Vector3(0, -10, 211);
 export default function Scene({ scroll, ...props }) {
@@ -924,60 +924,13 @@ export default function Scene({ scroll, ...props }) {
               >
                 <mesh
                   name="S"
-                  geometry={nodes.S.geometry}
-                  material={materials["S Material"]}
+                  geometry={nodes.H.geometry}
+                  
                   castShadow
                   receiveShadow
                   position={[-32, -6.5, 0]}
                 />
-                <mesh
-                  name="p"
-                  geometry={nodes.p.geometry}
-                  material={materials["p Material"]}
-                  castShadow
-                  receiveShadow
-                  position={[-18.14, -6.5, 0]}
-                />
-                <mesh
-                  name="l"
-                  geometry={nodes.l.geometry}
-                  material={materials["l Material"]}
-                  castShadow
-                  receiveShadow
-                  position={[-5.52, -6.5, 0]}
-                />
-                <mesh
-                  name="i"
-                  geometry={nodes.i.geometry}
-                  material={materials["i Material"]}
-                  castShadow
-                  receiveShadow
-                  position={[0.08, -6.5, 0]}
-                />
-                <mesh
-                  name="i1"
-                  geometry={nodes.i1.geometry}
-                  material={materials["i1 Material"]}
-                  castShadow
-                  receiveShadow
-                  position={[0.08, -6.5, 0]}
-                />
-                <mesh
-                  name="n"
-                  geometry={nodes.n.geometry}
-                  material={materials["n Material"]}
-                  castShadow
-                  receiveShadow
-                  position={[5.68, -6.5, 0]}
-                />
-                <mesh
-                  name="e"
-                  geometry={nodes.e.geometry}
-                  material={materials["e Material"]}
-                  castShadow
-                  receiveShadow
-                  position={[18.3, -6.5, 0]}
-                />
+                
               </group>
               <mesh
                 name="Rectangle 28"

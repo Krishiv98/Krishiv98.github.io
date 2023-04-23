@@ -3,10 +3,10 @@
 */
 
 import useSpline from '@splinetool/r3f-spline'
-import { PerspectiveCamera } from '@react-three/drei'
+import { OrthographicCamera } from '@react-three/drei'
 
 export default function Scene({ ...props }) {
-  const { nodes, materials } = useSpline('https://prod.spline.design/8dV3Z68gLHfVRzp4/scene.splinecode')
+  const { nodes, materials } = useSpline('https://prod.spline.design/Xu6WVGFrCf9szJ0W/scene.splinecode')
   return (
     <>
       <color attach="background" args={['#727ad9']} />
@@ -1748,14 +1748,14 @@ export default function Scene({ ...props }) {
             </group>
           </group>
         </group>
-        <PerspectiveCamera
+        <OrthographicCamera
           name="1"
           makeDefault={true}
+          zoom={0.44}
           far={100000}
-          near={5}
-          fov={45}
-          position={[1587.11, 899.59, 1340.07]}
-          rotation={[-Math.PI / 4, 0.62, Math.PI / 6]}
+          near={-100000}
+          position={[1542.26, 692.01, 1550.46]}
+          rotation={[-0.59, 0.59, 0.36]}
           scale={1}
         />
         <hemisphereLight name="Default Ambient Light" intensity={0.75} color="#eaeaea" />
