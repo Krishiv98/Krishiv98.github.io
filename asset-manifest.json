@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e4b8facc.css",
-    "main.js": "/static/js/main.7f8fce69.js",
+    "main.css": "/static/css/main.63597a9a.css",
+    "main.js": "/static/js/main.959aae5d.js",
     "static/js/227.d7a77bfd.chunk.js": "/static/js/227.d7a77bfd.chunk.js",
     "static/js/526.32732961.chunk.js": "/static/js/526.32732961.chunk.js",
     "static/js/232.d9d8296c.chunk.js": "/static/js/232.d9d8296c.chunk.js",
@@ -11,13 +11,13 @@
     "static/media/BlackJack.png": "/static/media/BlackJack.c2e285c4f566b6f4cfcb.png",
     "static/media/netlify-icon.svg": "/static/media/netlify-icon.e6ca38742e24439dea82634b53789a9e.svg",
     "static/media/react.svg": "/static/media/react.add74742e9e8f8827f7fa666dca760db.svg",
-    "static/media/react-bootstrap.svg": "/static/media/react-bootstrap.534ba5749ea53d6d943b273291be8174.svg",
+    "static/media/react-bootstrap.svg": "/static/media/react-bootstrap.1c7d4dd1dc82496c36bfae0834281811.svg",
     "static/media/sass-1.svg": "/static/media/sass-1.8aa78a8393470431c8036541f0708bd7.svg",
     "static/media/css3.svg": "/static/media/css3.8fba365c2c5824342874c7a674943eb8.svg",
     "static/media/heroku.svg": "/static/media/heroku.73be03b36a36dcffd909327a314c859b.svg",
     "static/media/redux.svg": "/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
     "static/media/bootstrap-4.svg": "/static/media/bootstrap-4.997c463dca63c915b9a51f1caedef8e1.svg",
-    "static/media/github.svg": "/static/media/github.c66b3c5adf421e87b1c707ba58321163.svg",
+    "static/media/github.svg": "/static/media/github.740db6be1c6248ce6abab3577896d4d9.svg",
     "static/media/html-5.svg": "/static/media/html-5.821ba738922e8952e57422f7b8a20362.svg",
     "static/media/javascript.svg": "/static/media/javascript.ba40d6a9629bf521391e764a593f9df3.svg",
     "static/media/git-icon.svg": "/static/media/git-icon.c60b7e5ae8ec2562f23fdddcab300026.svg",
@@ -26,15 +26,15 @@
     "index.html": "/index.html",
     "static/media/material-ui-1.svg": "/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/logo-vercel.svg": "/static/media/logo-vercel.32c29364e8c839bea90faa7b02221f15.svg",
-    "main.e4b8facc.css.map": "/static/css/main.e4b8facc.css.map",
-    "main.7f8fce69.js.map": "/static/js/main.7f8fce69.js.map",
+    "main.63597a9a.css.map": "/static/css/main.63597a9a.css.map",
+    "main.959aae5d.js.map": "/static/js/main.959aae5d.js.map",
     "227.d7a77bfd.chunk.js.map": "/static/js/227.d7a77bfd.chunk.js.map",
     "526.32732961.chunk.js.map": "/static/js/526.32732961.chunk.js.map",
     "232.d9d8296c.chunk.js.map": "/static/js/232.d9d8296c.chunk.js.map",
     "237.5a9540d2.chunk.js.map": "/static/js/237.5a9540d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4b8facc.css",
-    "static/js/main.7f8fce69.js"
+    "static/css/main.63597a9a.css",
+    "static/js/main.959aae5d.js"
   ]
 }
