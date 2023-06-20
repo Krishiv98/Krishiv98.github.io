@@ -23,6 +23,7 @@ body,
 
 body {
   position: fixed;
+  
 }
 
 body {
@@ -30,7 +31,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 
-  color: var(--color-text-main);
+  color: var(#2d3a94);
   /* background: #e8bab0; */
 
   user-select: none;

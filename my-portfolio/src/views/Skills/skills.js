@@ -83,7 +83,7 @@ const Skills = () => {
                 <div>
                     <Card className="focus mb-2">
                         <Card.Body>
-                            <Card.Title className="text-center  card-title">Scripting Languages</Card.Title>
+                            <Card.Title className="text-center  card-title">Programming/Scripting Languages</Card.Title>
                             <hr />
                             <Card.Text className="card-text d-flex justify-content-start flex-column">
                                 {skills.frontend.map((skill, index) => (

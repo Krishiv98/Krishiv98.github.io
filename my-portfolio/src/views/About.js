@@ -26,7 +26,7 @@ const About = () => {
                 I am a passionate programmer and a learner,a recent graduate of Computer Systems Technology at Saskatchewan Polytechnic, Saskatoon.
                 <br />
                 <br />
-                Along with that, I an Research Assistant and International Student Recuirment Assistant at Saskatchewan Polytechnic. In my free time I am a freelancer Excel Automation specialist on Fiverr. 
+                Along with that, I am Research Assistant and International Student Recuirment Assistant at Saskatchewan Polytechnic. In my free time I am a freelancer Excel Automation specialist on Fiverr. 
                 <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.                
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">

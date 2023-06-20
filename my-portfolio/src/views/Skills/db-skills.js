@@ -15,115 +15,98 @@ import L_FIREBASE from "../../assets/img/skills/firebase-icon.svg"
 import L_VERCEL from "../../assets/img/skills/logo-vercel.svg"
 import L_TAILWIND from "../../assets/img/skills/tailwindcss-icon.svg"
 // my-portfolio\public\assests\img\skills\github.svg
-
+import I_NEO4J from "../../assets/img/skills/Neo4j.svg"
+import I_BitBucket from "../../assets/img/skills/Bitbucket.svg"
+import I_Vue from "../../assets/img/skills/Vue.js_Logo_2.svg"
+import I_java from "../../assets/img/skills/java.svg"
+import I_C_Sharp from "../../assets/img/skills/C_sharp.svg"
+import I_MySQL from "../../assets/img/skills/MySQL_DB.svg"
+import I_Azure from "../../assets/img/skills/Microsof Azure.svg"
 
 export const skills = {
     frontend: [
-      {
-        link: "https://en.wikipedia.org/wiki/HTML5",
-        imgAltText: "HTML 5",
-        imgSrc: L_HTML5,
-        skillName: "HTML5",
-      },
-      {
-        link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
-        imgAltText: "CSS 3",
-        imgSrc: L_CSS3,
-        skillName: "CSS3",
-      },
+
       {
         link: "https://www.javascript.com/",
         imgAltText: "JavaScript",
         imgSrc: L_JAVASCRIPT,
         skillName: "JavaScript",
       },
-      // {
-      //   link: "https://sass-lang.com/",
-      //   imgAltText: "Sass",
-      //   imgSrc: L_SASS,
-      //   skillName: "Sass",
-      // },
+      {
+        link: "",
+        imgAltText: "Java",
+        imgSrc: I_java,
+        skillName: "Java",
+      },
+      {
+        link: "",
+        imgAltText: "Java",
+        imgSrc: I_C_Sharp,
+        skillName: "",
+      },
+
+      
+    ],
+    frameworks:[
       {
         link: "https://reactjs.org/",
         imgAltText: "React JS",
         imgSrc: L_REACT,
         skillName: "React JS",
       },
-      // {
-      //   link: "https://redux.js.org/",
-      //   imgAltText: "Redux",
-      //   imgSrc: L_REDUX,
-      //   skillName: "Redux",
-      // },
-      
-    ],
-    frameworks:[
-        {
-            link: "https://material-ui.com/",
-            imgAltText: "Material-UI",
-            imgSrc: L_MATERIALUI,
-            skillName: "Material-UI",
-          },
-          {
-            link: "https://react-bootstrap.github.io/",
-            imgAltText: "React Bootstrap",
-            imgSrc: L_REACT_BOOTSTRAP,
-            skillName: "React Bootstrap",
-          },
+      {
+        link: "",
+        imgAltText: "Vue JS",
+        imgSrc: I_Vue,
+        skillName: "Vue JS",
+      },
           {
             link: "https://getbootstrap.com/",
             imgAltText: "Bootstrap",
             imgSrc: L_BOOTSTRAP,
             skillName: "Bootstrap",
           },
-          // {
-          //   link: "https://tailwindcss.com/",
-          //   imgAltText: "tailwindcss",
-          //   imgSrc: L_TAILWIND,
-          //   skillName: "Tailwind CSS",
-          // },
+
           
     ],
 
     hostingPlatforms: [
    
-      // {
-      //   link: "https://www.netlify.com/",
-      //   imgAltText: "Netlify",
-      //   imgSrc: L_NETLIFY,
-      //   skillName: "Netlify",
-      // },
+
       {
         link: "https://pages.github.com/",
-        imgAltText: "GitHub Pages",
+        imgAltText: "GitHub",
         imgSrc: L_GITHUB_PAGES,
-        skillName: "GitHub Pages",
+        skillName: "GitHub",
       },
-      // {
-      //   link: "https://vercel.com/",
-      //   imgAltText: "Vercel",
-      //   imgSrc: L_VERCEL,
-      //   skillName: "Vercel",
-      // },
-      // {
-      //   link: "https://www.heroku.com/",
-      //   imgAltText: "Heroku",
-      //   imgSrc: L_HEROKU,
-      //   skillName: "Heroku",
-      // }
+      {
+        link: "",
+        imgAltText: "BitBucket",
+        imgSrc: I_BitBucket,
+        skillName: "",
+      },
+      {
+        link: "",
+        imgAltText: "Azure",
+        imgSrc: I_Azure,
+        skillName: "",
+      },
+
+     
     ],
     databases: [
-      // {
-      //   link: "https://firebase.google.com/",
-      //   imgAltText: "Firebase Database",
-      //   imgSrc: L_FIREBASE,
-      //   skillName: "Firebase Database",
-      // },
+  
       {
-        link: "https://firebase.google.com/docs/firestore",
-        imgAltText: "Firestore",
-        imgSrc: L_FIREBASE,
-        skillName: "Cloud Firestore",
+        link: "",
+        imgAltText: "Neo4j",
+        imgSrc: I_NEO4J,
+        skillName: "",
+      },
+      {
+        link: "",
+        imgAltText: "SQL",
+        imgSrc: I_MySQL,
+        skillName: "",
       },
     ],
     versionControl: [
