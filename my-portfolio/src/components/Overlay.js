@@ -86,7 +86,7 @@ export function Overlay({ scroll }) {
       </section>
 
 
-      <section style={{ height: "100vh" }} className={styles.sectionLeft}>
+      <section id="SkillsSection" style={{ height: "100vh" }} className={styles.sectionLeft}>
         <p>
           <Skills />
         </p>

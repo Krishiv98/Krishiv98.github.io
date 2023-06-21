@@ -45,12 +45,60 @@ const ProjectTimeline = () => {
   return (
     <div id="projects">
      
-      <div className="d-flex justify-content-between flex-column mt-6">
+      <div className="d-flex justify-content-between flex-column mt-2">
        
       <h1 className="pt-3 text-center  pb-3">PROJECTS</h1>
      
         <div>
+         
           <CardGroup>
+          <Card>
+              <Card.Header>Console-Based BlackJack</Card.Header>
+              <Card.Img variant="top" src={BlackJack} />
+              <Card.Body>
+                <strong>Description:</strong> This is a console based Black Jack where a player plays against a dealer and bet money.
+                <hr />
+                <strong>Features:</strong>
+                <ul className="list-styles pt-1">
+                  <li>Play a fun and competetive game against an Dealer whos is a program</li>
+                  <li>Powered by Pure Swift</li>
+                  <li>Respoisive Game where a player can play untill there money hits Zero</li>
+                </ul>
+                <hr />
+                <strong>Tech used:</strong>
+                <ul>
+                  <li>
+                    <span className="p-2">
+                      <Image
+                        src={"https://developer.apple.com/swift/images/swift-og.png"}
+                        alt="Swift"
+                        rounded
+                        className="image-style m-1"
+                      ></Image>{" "}
+                      Swift
+                    </span>
+                  </li>
+                </ul>
+              </Card.Body>
+              <Card.Footer>
+                <div className="d-flex justify-content-between flex-nowrap text-center">
+                  <Button
+                    href="https://replit.com/@krishivsoni/BlackJack?v=1"
+                    target="_blank"
+                    variant="primary"                  
+                  >
+                    SEE LIVE
+                  </Button>
+                  <Button
+                    href="https://github.com/Krishiv98/Console-based-BlackJack-Swift"
+                    target="_blank"
+                    variant="secondary"
+                  >
+                    SOURCE CODE
+                  </Button>
+                </div>
+              </Card.Footer>
+            </Card>
             <Card>
               <Card.Header>Console-Based BlackJack</Card.Header>
               <Card.Img variant="top" src={BlackJack} />
@@ -98,6 +146,114 @@ const ProjectTimeline = () => {
                 </div>
               </Card.Footer>
             </Card>
+            </CardGroup>
+{/* ---------------------------------------- */}
+
+
+
+
+
+
+            {/* ------------------------------ */}
+            <CardGroup>
+          <Card>
+              <Card.Header>Console-Based BlackJack</Card.Header>
+              <Card.Img variant="top" src={BlackJack} />
+              <Card.Body>
+                <strong>Description:</strong> This is a console based Black Jack where a player plays against a dealer and bet money.
+                <hr />
+                <strong>Features:</strong>
+                <ul className="list-styles pt-1">
+                  <li>Play a fun and competetive game against an Dealer whos is a program</li>
+                  <li>Powered by Pure Swift</li>
+                  <li>Respoisive Game where a player can play untill there money hits Zero</li>
+                </ul>
+                <hr />
+                <strong>Tech used:</strong>
+                <ul>
+                  <li>
+                    <span className="p-2">
+                      <Image
+                        src={"https://developer.apple.com/swift/images/swift-og.png"}
+                        alt="Swift"
+                        rounded
+                        className="image-style m-1"
+                      ></Image>{" "}
+                      Swift
+                    </span>
+                  </li>
+                </ul>
+              </Card.Body>
+              <Card.Footer>
+                <div className="d-flex justify-content-between flex-nowrap text-center">
+                  <Button
+                    href="https://replit.com/@krishivsoni/BlackJack?v=1"
+                    target="_blank"
+                    variant="primary"                  
+                  >
+                    SEE LIVE
+                  </Button>
+                  <Button
+                    href="https://github.com/Krishiv98/Console-based-BlackJack-Swift"
+                    target="_blank"
+                    variant="secondary"
+                  >
+                    SOURCE CODE
+                  </Button>
+                </div>
+              </Card.Footer>
+            </Card>
+            <Card>
+              <Card.Header>Console-Based BlackJack</Card.Header>
+              <Card.Img variant="top" src={BlackJack} />
+              <Card.Body>
+                <strong>Description:</strong> This is a console based Black Jack where a player plays against a dealer and bet money.
+                <hr />
+                <strong>Features:</strong>
+                <ul className="list-styles pt-1">
+                  <li>Play a fun and competetive game against an Dealer whos is a program</li>
+                  <li>Powered by Pure Swift</li>
+                  <li>Respoisive Game where a player can play untill there money hits Zero</li>
+                </ul>
+                <hr />
+                <strong>Tech used:</strong>
+                <ul>
+                  <li>
+                    <span className="p-2">
+                      <Image
+                        src={"https://developer.apple.com/swift/images/swift-og.png"}
+                        alt="Swift"
+                        rounded
+                        className="image-style m-1"
+                      ></Image>{" "}
+                      Swift
+                    </span>
+                  </li>
+                </ul>
+              </Card.Body>
+              <Card.Footer>
+                <div className="d-flex justify-content-between flex-nowrap text-center">
+                  <Button
+                    href="https://replit.com/@krishivsoni/BlackJack?v=1"
+                    target="_blank"
+                    variant="primary"                  
+                  >
+                    SEE LIVE
+                  </Button>
+                  <Button
+                    href="https://github.com/Krishiv98/Console-based-BlackJack-Swift"
+                    target="_blank"
+                    variant="secondary"
+                  >
+                    SOURCE CODE
+                  </Button>
+                </div>
+              </Card.Footer>
+            </Card>
+            </CardGroup>
+{/*---------------------------------------------------  */}
+<CardGroup>
+            
             <Card>
               <Card.Header>Automated Car Race</Card.Header>
               <Card.Img variant="top" src={CarRace} />
@@ -238,6 +394,8 @@ const ProjectTimeline = () => {
               </Card.Footer>
             </Card>
           </CardGroup>
+
+
         </div>
       </div>
 
