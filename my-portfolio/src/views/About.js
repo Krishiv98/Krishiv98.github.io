@@ -23,7 +23,7 @@ const About = () => {
               <Row className=" align-items-start p-2 my-details rounded tex align-text-left " >
                 <br />Aspiring Full-Stack Developer and Devops Engineer with expertise in React.js, Vue.js, Microsoft Azure, Three js, Scripting languages like Bash, Powershell and Perl. Currently learning Machine learning and Data Analytics using Python, TensorFlow, and Flask at my current job.
                 <br /><br/>
-                I am a passionate programmer and a learner,a recent graduate of Computer Systems Technology at Saskatchewan Polytechnic, Saskatoon.
+                I am a passionate programmer, a learner, and a recent graduate of Computer Systems Technology at Saskatchewan Polytechnic, Saskatoon.
                 <br />
                 <br />
                 Along with that, I am Research Assistant and International Student Recuirment Assistant at Saskatchewan Polytechnic. In my free time I am a freelancer Excel Automation specialist on Fiverr. 
