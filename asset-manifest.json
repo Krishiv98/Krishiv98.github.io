@@ -1,14 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.7767cdc6.css",
-    "main.js": "/static/js/main.5107b519.js",
+    "main.css": "/static/css/main.b589c805.css",
+    "main.js": "/static/js/main.aa68a934.js",
     "static/js/227.d7a77bfd.chunk.js": "/static/js/227.d7a77bfd.chunk.js",
     "static/js/526.32732961.chunk.js": "/static/js/526.32732961.chunk.js",
     "static/js/232.d9d8296c.chunk.js": "/static/js/232.d9d8296c.chunk.js",
     "static/js/237.5a9540d2.chunk.js": "/static/js/237.5a9540d2.chunk.js",
+    "static/media/TLDImage3.png": "/static/media/TLDImage3.5e48ff1ccbdac973bea9.png",
+    "static/media/TLDImage7.png": "/static/media/TLDImage7.73ca6f399d90dc34db78.png",
+    "static/media/TLDImage4.png": "/static/media/TLDImage4.536248fbebc08f8a1d99.png",
+    "static/media/TLDImage6.png": "/static/media/TLDImage6.afc2fee190c5eba5c701.png",
+    "static/media/TLDImage5.png": "/static/media/TLDImage5.5b67311d1845e3aa3df4.png",
     "static/media/AutomatedCarRacing.png": "/static/media/AutomatedCarRacing.f3d19bf133392885240d.png",
+    "static/media/TLDImage9.png": "/static/media/TLDImage9.b98fb44f0b6ca0502781.png",
+    "static/media/TLDImage8.png": "/static/media/TLDImage8.f6cb937dfdd55b120075.png",
     "static/media/WackAMole.png": "/static/media/WackAMole.f17c1830e660dc6449e1.png",
+    "static/media/TLDImage1.png": "/static/media/TLDImage1.812ecc9d061c9f5d46f7.png",
+    "static/media/TLDImage2.png": "/static/media/TLDImage2.d201fe5072f405bef83b.png",
     "static/media/BlackJack.png": "/static/media/BlackJack.c2e285c4f566b6f4cfcb.png",
+    "static/media/nodejs.svg": "/static/media/nodejs.52cbf9a89f44655c0375b9e9f88bf9c5.svg",
     "static/media/netlify-icon.svg": "/static/media/netlify-icon.e6ca38742e24439dea82634b53789a9e.svg",
     "static/media/Microsof Azure.svg": "/static/media/Microsof Azure.21d72c7ab3958467d872a4f7c68d630d.svg",
     "static/media/react.svg": "/static/media/react.add74742e9e8f8827f7fa666dca760db.svg",
@@ -33,15 +43,15 @@
     "index.html": "/index.html",
     "static/media/material-ui-1.svg": "/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/logo-vercel.svg": "/static/media/logo-vercel.32c29364e8c839bea90faa7b02221f15.svg",
-    "main.7767cdc6.css.map": "/static/css/main.7767cdc6.css.map",
-    "main.5107b519.js.map": "/static/js/main.5107b519.js.map",
+    "main.b589c805.css.map": "/static/css/main.b589c805.css.map",
+    "main.aa68a934.js.map": "/static/js/main.aa68a934.js.map",
     "227.d7a77bfd.chunk.js.map": "/static/js/227.d7a77bfd.chunk.js.map",
     "526.32732961.chunk.js.map": "/static/js/526.32732961.chunk.js.map",
     "232.d9d8296c.chunk.js.map": "/static/js/232.d9d8296c.chunk.js.map",
     "237.5a9540d2.chunk.js.map": "/static/js/237.5a9540d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7767cdc6.css",
-    "static/js/main.5107b519.js"
+    "static/css/main.b589c805.css",
+    "static/js/main.aa68a934.js"
   ]
 }
