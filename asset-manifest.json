@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b589c805.css",
-    "main.js": "/static/js/main.aa68a934.js",
+    "main.css": "/static/css/main.697ba3dc.css",
+    "main.js": "/static/js/main.3bb510ea.js",
     "static/js/227.d7a77bfd.chunk.js": "/static/js/227.d7a77bfd.chunk.js",
     "static/js/526.32732961.chunk.js": "/static/js/526.32732961.chunk.js",
     "static/js/232.d9d8296c.chunk.js": "/static/js/232.d9d8296c.chunk.js",
@@ -22,10 +22,10 @@
     "static/media/netlify-icon.svg": "/static/media/netlify-icon.e6ca38742e24439dea82634b53789a9e.svg",
     "static/media/Microsof Azure.svg": "/static/media/Microsof Azure.21d72c7ab3958467d872a4f7c68d630d.svg",
     "static/media/react.svg": "/static/media/react.add74742e9e8f8827f7fa666dca760db.svg",
-    "static/media/MySQL_DB.svg": "/static/media/MySQL_DB.b5aa5e46692dc573c7e23c494ca8f09e.svg",
+    "static/media/MySQL_DB.svg": "/static/media/MySQL_DB.09bfa14265032a3e51345e7f30a8acc5.svg",
+    "static/media/Bitbucket.svg": "/static/media/Bitbucket.4083e6ddd52ad7a4be65dc656ecf4ad7.svg",
     "static/media/react-bootstrap.svg": "/static/media/react-bootstrap.1c7d4dd1dc82496c36bfae0834281811.svg",
-    "static/media/Bitbucket.svg": "/static/media/Bitbucket.883ffb10e79f3ef3adc5c526557eb066.svg",
-    "static/media/C_sharp.svg": "/static/media/C_sharp.e2c0510d2b743a87e7621b703ba07906.svg",
+    "static/media/C_sharp.svg": "/static/media/C_sharp.72d6dcc144316c8b0604497b10071d70.svg",
     "static/media/sass-1.svg": "/static/media/sass-1.8aa78a8393470431c8036541f0708bd7.svg",
     "static/media/java.svg": "/static/media/java.5e8cb917c7f11276e9f9d00d4dce53b5.svg",
     "static/media/css3.svg": "/static/media/css3.8fba365c2c5824342874c7a674943eb8.svg",
@@ -39,19 +39,19 @@
     "static/media/git-icon.svg": "/static/media/git-icon.c60b7e5ae8ec2562f23fdddcab300026.svg",
     "static/media/tailwindcss-icon.svg": "/static/media/tailwindcss-icon.017e1e304e12384d156d384f40a4b5f8.svg",
     "static/media/firebase-icon.svg": "/static/media/firebase-icon.82a35fc0b90d124a8e7333989f767fd3.svg",
-    "static/media/Vue.js_Logo_2.svg": "/static/media/Vue.js_Logo_2.f1fd23be1db9361fbcd81511fe862b08.svg",
+    "static/media/Vue.js_Logo_2.svg": "/static/media/Vue.js_Logo_2.5dbb5590e89aba651db8315e1fcc21ff.svg",
     "index.html": "/index.html",
     "static/media/material-ui-1.svg": "/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/logo-vercel.svg": "/static/media/logo-vercel.32c29364e8c839bea90faa7b02221f15.svg",
-    "main.b589c805.css.map": "/static/css/main.b589c805.css.map",
-    "main.aa68a934.js.map": "/static/js/main.aa68a934.js.map",
+    "main.697ba3dc.css.map": "/static/css/main.697ba3dc.css.map",
+    "main.3bb510ea.js.map": "/static/js/main.3bb510ea.js.map",
     "227.d7a77bfd.chunk.js.map": "/static/js/227.d7a77bfd.chunk.js.map",
     "526.32732961.chunk.js.map": "/static/js/526.32732961.chunk.js.map",
     "232.d9d8296c.chunk.js.map": "/static/js/232.d9d8296c.chunk.js.map",
     "237.5a9540d2.chunk.js.map": "/static/js/237.5a9540d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b589c805.css",
-    "static/js/main.aa68a934.js"
+    "static/css/main.697ba3dc.css",
+    "static/js/main.3bb510ea.js"
   ]
 }
